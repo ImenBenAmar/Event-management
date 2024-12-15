@@ -1,0 +1,140 @@
+body {
+    background-color: #f7e9f2;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Permet de rendre la page scrollable */
+    overflow-y: auto; /* Active le défilement vertical */
+    position: relative;
+}
+
+h1 {
+    color: #d63384;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filter-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filter-bar select, .filter-bar button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #d63384;
+    font-size: 16px;
+}
+
+.filter-bar button {
+    background-color: #d63384;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-bar button:hover {
+    background-color: #a0196f;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Formulaire transparent */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    width: 100%;
+    animation: fadeIn 0.5s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-outline-primary {
+    border-color: #d63384;
+    color: #d63384;
+}
+
+.btn-outline-primary:hover {
+    background-color: #d63384;
+    color: white;
+}
+
+.btn-outline-info {
+    border-color: #6f42c1;
+    color: #6f42c1;
+}
+
+.btn-outline-info:hover {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+}
+
+button[type="submit"] {
+    background-color: #d63384;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #a0196f;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.form-container {
+    display: none;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.lottie-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.lottie-background dotlottie-player {
+    width: 900px;
+    height: 100%;
+    pointer-events: none;
+}
