@@ -31,4 +31,8 @@ Welcome to our Event Management System, an all-in-one platform designed to strea
 
 Check out our demo video below to see the system in action!
 
-<iframe src="https://drive.google.com/file/d/1uSIO-bPSbIP9UWzkBmGdiRJr8KTeurqK/preview" width="640" height="480"></iframe>
+# Demo
+
+Check out our demo video below to see the system in action!
+
+https://drive.google.com/uc?export=view&id=1uSIO-bPSbIP9UWzkBmGdiRJr8KTeurqK
