@@ -292,7 +292,7 @@ mysqli_close($connection);
     justify-content: space-between;
     background: linear-gradient(135deg, rgba(0, 0, 50, 0.5), rgba(0, 50, 100, 0.5)), url('images\images.jpeg') no-repeat center center/cover; /* Image de fond avec dégradé */
     backdrop-filter: blur(10px); /* Flou en arrière-plan */
-    padding: 8px 20px;
+    padding: 20px 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -309,38 +309,19 @@ mysqli_close($connection);
     align-items: center;
 }
 .logo img {
-    width: 60%;
+    width: 50%;
 }
 
 .navbar-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
     width: 100%;
 }
-
 .search-bar {
     display: flex;
     align-items: center;
-    margin: 0 20px;
-    flex-grow: 1;
-}
-
-.search-bar input {
-    padding: 7px;
-    border: 1px solid #2f2c2c;
-    border-radius: 4px 0 0 4px;
-    outline: none;
-    flex-grow: 1;
-}
-
-.search-btn {
-    padding: 5px;
-    border: none;
-    background-color: #b968b6;
-    color: rgb(15, 14, 14);
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
+    margin-left: -170px;
 }
 
 .nav-links {
@@ -488,7 +469,7 @@ mysqli_close($connection);
                     <a href="events_search.php">Trouver des événements</a>
                     <a href="creer_event.php">Créer des événements</a>
                     <a href="mesbillets.php">Mes billets</a>
-
+                    <a href="avis.php">Voir les avis</a> <!-- New button -->
                     <?php if (empty($currentUserEmail)): ?>
                         <a href="auth.php" class="signup">Connexion</a>
                         <a href="inscription.php" class="signup">Inscrire</a>
