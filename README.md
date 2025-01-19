@@ -1,5 +1,4 @@
 
-This project is not the final version. I'm working to integrate some AI features...
 
 # 🎉 Event Management System 🎉
 
@@ -21,7 +20,7 @@ Welcome to our Event Management System, an all-in-one platform designed to strea
 - **Filter Events**: Advanced filtering options help users find the perfect events to attend.
 - **Manage Registrations**: Event creators can accept or reject registration requests and receive notifications.
 - **Notifications**: Users receive notifications for event updates and registration status.
-- **system for reviews classification** : i itegrate a deep learning model (LSTM) to predict if there is positive or negative reviews 
+- **system for reviews classification** : i itegrate a deep learning NLP model (LSTM) to predict if there is positive or negative reviews 
 
 ### Admin Features
 - **Approve/Cancel Events**: Admins have the authority to approve or cancel events created by users.
