@@ -11,6 +11,7 @@ Welcome to our Event Management System, an all-in-one platform designed to strea
 - **Backend**: ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 - **Database**: ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) (phpMyAdmin)
 - **Server**: ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=xampp&logoColor=white)
+- **python**
 
 ## 🚀 Features
 
