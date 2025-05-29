@@ -4,7 +4,7 @@
 
 Welcome to our Event Management System, an all-in-one platform designed to streamline the creation, registration, and management of events. Developed using modern web technologies, this system ensures a smooth experience for both users and administrators.
 
-![Event Management](https://via.placeholder.com/800x300.png?text=Event+Management+System)
+
 
 ## 🛠 Technologies Used
 - **Frontend**: ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
