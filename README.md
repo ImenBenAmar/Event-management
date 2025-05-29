@@ -36,4 +36,4 @@ Check out our demo video below to see the system in action!
 
 Check out our demo video below to see the system in action!
 
-https://drive.google.com/uc?export=view&id=1uSIO-bPSbIP9UWzkBmGdiRJr8KTeurqK
+https://www.linkedin.com/feed/update/urn:li:activity:7287046221058224129/
